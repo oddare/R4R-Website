@@ -1,0 +1,18 @@
+.showCaseColors {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid black;
+}
+.showCaseColor {
+    display:flex;
+    flex-direction: row;
+    border: 2px solid red;
+    justify-content: left;
+    align-items: center;
+}
+
+.showCaseColor > div {
+    margin: 10px;
+    border: 2px solid green;
+}
