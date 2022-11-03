@@ -22,3 +22,8 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+.colorHex::after {
+    content: attr(hexCode) "";
+    color: attr(hexCode)"";
+}
